@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            
+            width: 240px;
+            border: 1px solid black;
+            
+            background-color: rgb(164, 222, 70);
+            border-collapse: collapse;
+            
+        }
+        tr td{
+            align-content: center;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <table border="1  black"  align="center" >
+        <tr>
+            <td colspan="8" rowspan="2" style="height: 40px;">A</td>
+        </tr>
+        <tr></tr>
+
+        <tr>
+            <td colspan="4" rowspan="3">B</td>
+            <tr>
+                <td colspan="4" >C</td>
+            </tr>
+            <tr>
+                <td colspan="2">D</td>
+                <td colspan="2">E</td>
+            </tr>
+        </tr>
+        
+        <tr>
+            <td rowspan="4" colspan="2">F</td>
+            <tr><td colspan="6" style="height: 35px;">G</td></tr>
+            <tr >
+                <td rowspan="2" colspan="2">H</td>
+                <td rowspan="2" colspan="2" >I</td>
+                <td colspan="2">J</td>
+                <tr><td colspan="2">K</td></tr>
+                
+            </tr>
+        </tr>
+        
+        <tr>
+            <td colspan="7" rowspan="2">L</td>
+            <td>M</td>
+            <tr><td style="height: 25px;">N</td></tr>
+        </tr>
+
+    </table>
+</body>
+</html>
